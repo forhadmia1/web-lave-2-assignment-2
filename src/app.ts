@@ -15,6 +15,7 @@ app.use(cors());
 app.use('/api/products', productRoutes);
 app.use('/api/orders', orderRoutes);
 
+//catch undefined route
 app.use('*', (req: Request, res: Response) => {
   res.status(404).json({
     success: false,
