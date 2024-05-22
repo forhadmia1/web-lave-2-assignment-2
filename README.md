@@ -16,7 +16,7 @@ Create a .env file in the root directory
 
 `PORT=5000`
 
-`DB_CONNECTION_STRING=mongodb://localhost:27017/your-database`
+`DATABASE_URL=mongodb://localhost:27017/your_database_name`
 
 # Start the application
 
