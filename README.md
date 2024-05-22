@@ -12,7 +12,7 @@ Clone the repository
 
 # Configuration
 
-Create a .env file in the root directory
+Create a .env file in the root directory and add the variables
 
 `PORT=5000`
 
